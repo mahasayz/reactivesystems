@@ -12,6 +12,7 @@
 > Apache MINA (https://mina.apache.org) and Netty (http://netty.io) are libraries that help compose asynchronous and event-based programs
 
 __Fig 1.1__ High-level architecture of Play Framework
+
 ![Play Architecture](images/play-arch.png)
 
 ### Rethinking Resource Utilization
@@ -31,9 +32,11 @@ __Fig 1.1__ High-level architecture of Play Framework
 * __Reactive__ web applications adopt the __evented__ model
 
 __Fig 1.2__ Threaded web server
+
 ![Threaded web server](images/threaded-server.png)
 
 __Fig 1.3__ Evented web server
+
 ![Evented web server](images/evented-server.png)
 
 #### Evented Web Servers
@@ -59,6 +62,7 @@ Process mechanism:
 			* security or app upgrades need to be installed
 
 __Fig 1.4__ Horizontal Deployment
+
 ![Horizontal Deployment](images/hor-dep.png)
 
 * Horizontal Deployment
